@@ -57,7 +57,7 @@ section {  /*Configuração da caixa que está os textos e imagens do site*/
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 5vw;
+    font-size: 2vw;
 }
 
 section.normal { /*Seção com somente texto*/
