@@ -2,8 +2,16 @@
 @charset "UTF-8";
 
 body {
+     
+    /* background-color: black;
+    background-image: url(imagens/pattern002.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+
     height: 100vh;
-    background: black url(imagens/wallpaper002.jpg) center center no repeat fixed;
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed; /*Resumo do Código acima (Shorthand*/
     background-size: cover;
 }
 
