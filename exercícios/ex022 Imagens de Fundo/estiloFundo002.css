@@ -3,5 +3,8 @@
 
 body { /*Aplicando Imagem externa no Background*/
     background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+    
     background-size: 100px 100px; /*Configurar tamanhos das imagens */ 
+
+    background-repeat: repeat /*para repetir a imagem */; /* background-repeat: no-repeat (para não repetir),  background-repeat: repeat-x (para repetir na horizontal),  background-repeat: repeat-y (para repetir na vertical) */
 }
