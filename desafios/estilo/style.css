@@ -1,3 +1,11 @@
+/*@charset "UTF-8"; (Padrão Config CSS*/
+@charset "UTF-8"; 
 
-@charset "UTF-8";
 
+html, body {
+    
+}
+
+section.normal {
+    background-color: white;
+}
