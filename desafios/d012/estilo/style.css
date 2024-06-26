@@ -1,6 +1,16 @@
 /*@charset "UTF-8"; (Padrão Config CSS*/
 @charset "UTF-8"; 
 
+/*Import das fontes do site*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root { /*Configuração para usar mais de uma fonte no site*/
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 *{ 
     margin: 0px; /*Resetar Configuração dos elementos da página*/
     padding: 0px;
@@ -9,6 +19,7 @@
 html, body {
         min-height: 100vh; /*Tamanho minímo do HTML e do Body 100%ViewPortHeight*/
         background-color: darkgray;
+        font-family: var(--fonte1);
 
 }
 
@@ -21,6 +32,9 @@ header { /*Cabeçalho do Site*/
 header > h1 { /*Texto do Cabeçalho*/
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 4em;
+    font-size: 10vw;
 }
 
 header > p { /*Pará grafo do Cabeçalho*/
@@ -42,6 +56,8 @@ section {  /*Configuração da caixa que está os textos e imagens do site*/
     padding-bottom: 10vh; 
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 5vw;
 }
 
 section.normal { /*Seção com somente texto*/
@@ -58,6 +74,8 @@ section.imagem > p { /*Caixa que está o texto da imagem */
     background-color: black;
     color: white;
     width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer { /*Rodapé do site*/
