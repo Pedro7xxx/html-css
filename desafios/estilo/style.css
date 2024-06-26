@@ -1,11 +1,51 @@
 /*@charset "UTF-8"; (Padrão Config CSS*/
 @charset "UTF-8"; 
 
+*{ 
+    margin: 0px; /*Resetar Configuração dos elementos da página*/
+    padding: 0px;
+}
 
 html, body {
-    
+        min-height: 100vh; /*Tamanho minímo do HTML e do Body 100%ViewPortHeight*/
+        background-color: darkgray;
+
+}
+
+header { /*Cabeçalho do Site*/
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 { /*Texto do Cabeçalho*/
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p { /*Pará grafo do Cabeçalho*/
+    padding-bottom: 50px;
+}
+
+header a, footer a {                         
+    text-decoration: none;
+    color: white;          /*Links do Site*/
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover   {  /*Links do Site ( Decoração) */
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
 
 section.normal {
     background-color: white;
 }
+
+
