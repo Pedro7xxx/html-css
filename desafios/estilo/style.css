@@ -37,15 +37,36 @@ header a:hover, footer a:hover   {  /*Links do Site ( Decoração) */
     text-decoration: underline;
 }
 
-footer {
+section {  /*Configuração da caixa que está os textos e imagens do site*/
+    padding-top: 10vh;
+    padding-bottom: 10vh; 
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal { /*Seção com somente texto*/
+    background-color: white;
+    color: black;
+}
+
+section.imagem { /*Seção com imagem */
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p { /*Caixa que está o texto da imagem */
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+
+footer { /*Rodapé do site*/
     background-color: black;
     text-align: center;
     color: white;
     padding: 10px;
 }
 
-section.normal {
-    background-color: white;
-}
+
 
 
