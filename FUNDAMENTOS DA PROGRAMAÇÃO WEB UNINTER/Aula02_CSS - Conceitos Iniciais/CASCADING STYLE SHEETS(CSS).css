@@ -1,0 +1,55 @@
+                         /*---Sintaxe----*/
+
+/*h1 {color:blue;
+    font-size: 12px;  
+}/*
+
+                       /*----Seletores----*/
+
+/*-Elemento*/
+/*p{
+    text-align: center;
+    color: red;
+}*/
+
+/*-Class*/
+/*.p{
+    text-align: center;
+    color: blue;
+}*/
+
+/*-ID*/
+/*#p{
+    text-align: center;
+    color: green;
+}*/
+
+/*Universal*/
+/* *{
+    text-align: center;
+    color: blue;
+}*/
+
+                            /*Aplicando*/
+
+*{ /*Coloca modificação em todo o arquivo*/
+    text-align: center;
+    color: blue;
+}
+
+p{ /*Modifica só um elemento*/
+    text-align: justify;
+    color: red;
+}
+
+#p{
+    color: blueviolet;
+}
+
+.p{
+    color: chartreuse;
+}
+
+
+
+
