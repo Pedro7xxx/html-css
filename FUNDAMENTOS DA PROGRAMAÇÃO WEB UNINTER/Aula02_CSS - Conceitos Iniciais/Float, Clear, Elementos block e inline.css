@@ -6,3 +6,62 @@
     right - O elemento flutua à direita de seu contêiner
     none - O elemento não flutua (Será exibido exatamente onde ocorre no texto). Isso é padrão
     inherit - O elemento herda o valor float de seu pai
+
+/*Clear*/
+    /*Quando usamos a float, e queremos que o próximo elemento abaixo (não à direita ou à esquerda), teremos que usar a propriedade clear*/
+
+/*Elementos tipo Block*/
+
+/*
+<address> <hr>
+<article> <li>
+<aside>   <main>
+<canvas>  <nav>
+<dd>      <noscript>
+<div>     <ol>
+<dl>      <output>
+<dt>      <p>
+<fieldset> <pre>
+<figcaption> <section>
+<figure>    <table>
+<footer>    <tfoot>
+<form>      <ul>
+<h1-h6>     <video>
+<header>  */    
+
+/*Elementos inline
+
+<a>
+<acronym>
+    >
+<b>
+<bdo>
+<big>
+<br>
+<button>
+<cite>
+<code>
+<dfn>
+<em>
+<i>
+<img>
+<input>
+<kbd>
+<label>
+<map>
+<objct>
+<q>
+<samp>
+<script>
+<select>
+<small>
+<span>
+<strong>
+<sub>
+<sup>
+<textarea>
+   >
+|<time>
+<tt>
+<var>
+*/
