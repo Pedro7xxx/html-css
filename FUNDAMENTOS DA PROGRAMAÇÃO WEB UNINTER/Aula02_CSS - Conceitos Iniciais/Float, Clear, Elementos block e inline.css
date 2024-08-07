@@ -1,0 +1,8 @@
+/*Float*/
+    img{  /*INDEX*/
+        float: right;
+    }
+/*  lef - O elemento flutua à esquerda de seu contêiner
+    right - O elemento flutua à direita de seu contêiner
+    none - O elemento não flutua (Será exibido exatamente onde ocorre no texto). Isso é padrão
+    inherit - O elemento herda o valor float de seu pai
