@@ -1,0 +1,23 @@
+/*Largura*/
+
+    body{
+    background-color: rgb(66, 65, 65);
+    color: white;
+    }
+
+       div.um{
+            width: auto;
+            border: 1px solid white;
+        } 
+
+        div.dois{
+            width: 200px;
+            height: 50px;
+            border: 1px solid white;
+        } 
+
+        div.tres{
+            width: 60%;
+            border: 1px solid white;
+        } 
+
