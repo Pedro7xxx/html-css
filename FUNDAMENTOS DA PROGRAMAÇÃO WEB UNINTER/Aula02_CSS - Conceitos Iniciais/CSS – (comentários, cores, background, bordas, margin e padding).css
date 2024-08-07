@@ -1,0 +1,65 @@
+/*Cores*/
+      /*  *{
+            background-color: black;
+            color: white;
+        }  */
+
+
+/*BordaS*/
+     /*   p{
+            border: 5px solid red;
+        } */
+
+
+/*Margin*/
+    /*    div{
+            border: 1px solid black;
+            margin: 25px;
+            background-color: lightblue;
+        } */
+
+
+/*Padding*/
+    /*    div{
+            border: 1 px solid black;
+            padding: 25px;
+            background-color: green;
+            color: white;
+        } */
+
+/*Exemplo01*/
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+p, h1, h2{
+    text-align: center;
+}
+
+.tamanho{
+    width: 30%;
+    height: 250px;
+    border: solid 1px;
+    border-radius: 50px 5px;
+}
+
+.espaço{
+    padding: 20px;   
+}
+
+.principal{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.cor1{
+    background-color: chocolate;
+}
+.cor2{
+    background-color: cadetblue;
+}
+
+        
