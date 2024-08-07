@@ -13,9 +13,33 @@
 <input type="text" name="nome" placeholder="Digite seu nome" size="50" maxlength="50">
 <br><br><br>
 <label for="senha">Senha:</label>
-    <input type="text" type="password" name="senha" size="8" maxlength="8">
+    <input type="text" type="password" name="senha" size="8" size="8" maxlength="8">
+<br><br><br>
+<fieldset>
+    <label for="linguagem">Linguagem que tem interesse</label>
+    <br><br>
+    <input type="checkbox" name="linguagem[]" value="c++">C++
+    <input type="checkbox" name="linguagem[]" value="php">php
+    <input type="checkbox" name="linguagem[]" value="delphi">Delphi
+</fieldset>
+
+<label for="linguagemescolhida">Linguagem que irá cursar agora</label>
+<br><br>
+
+<input type="radio" name="curso" value="c++">C++
+<input type="radio" name="curso" value="php">php
+<input type="radio" name="curso" value="php">Delphi
+
+<select name="escola">
+    <option value="c++">C++</option>
+    <option value="php">php</option>
+    <option value="delphi">Delphi</option>
+</select>
+
+
+
     </form>
-24:59
+
 
 </body>
 </html>
