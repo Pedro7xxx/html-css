@@ -1,0 +1,51 @@
+/*Herança01:
+    section{
+        color:crimson
+    }
+
+Henraça02:
+
+    body{
+        background-color: rgb(148, 213, 230)
+
+    }
+
+    section{
+        color: rgb(29, 29, 29);
+        background-color: aquamarine;
+    }
+    
+    ul{
+        display: inline;
+    }
+
+Herança03:
+
+    p{
+        color: #900;
+    }
+            p em {
+                color: blue;
+            }
+
+Herança04:*/
+
+    ul li{
+        display: inline;
+        margin: left 30px;
+        color: white;
+        background-color: black;
+    }
+
+    ul + p{
+        font-size: x-large;
+    }
+
+    h1~h2{
+        color:red;
+    } 
+
+    
+
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Árvore do documento.css">
+    <title>Document</title>
+</head>
+<body>
+    <!---
+
+Elemento Pai-Filho
+
+    Pai///Filho
+
+            html///head,body
+            body///div
+            div///header,section,footer
+            header///h1,h2
+            ul///li
+            h3///Não tem elemento filho
+ 
+
+Herança01:
+    <section>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum veniam voluptates nostrum repellendus magnam deleniti, quis, laboriosam, dolorem facere laborum dolores iste corrupti at nisi nobis placeat ducimus dolor porro ab iusto accusamus! Odit doloribus, repellat a molestiae corrupti repellendus!</p>
+
+        <ul>
+            <li>HTML</li>
+            <LI>CSS</LI>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+
+Elementos Ancestrais e Descendentes
+
+    Ancestral///Elemento Descendente
+        div///header,section,footer
+        html///Todos os elementos dentro html
+        body///Todos os elementos dentro do body
+        div///header,section,footer
+        header///h1,h2
+        footer///p,em,a
+        pre/// - 
+
+Herança02:
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores perferendis nisi nihil non, doloribus ipsa rem excepturi. Harum provident eaque saepe dolorum! Magni, officia quasi voluptatem labore aut quo perspiciatis laudantium. Mollitia iste aspernatur assumenda corporis, sint iusto quos quia?</p>
+
+        <ul>
+            <li>HMTL</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+    </section>
+
+
+Elemento-irmão
+    div///header,section,footer
+    section///h3 e pre
+    ul///li
+    p///em, a
+
+Herança03:
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus hic nesciunt sed ducimus? Labore minima, aliquid, nulla error voluptas, <em>illo vitae sapiente eveniet ipsa dolore iure</em> consectetur quis nisi maiores.</p>
+
+Especificação CSS
+    Seletor///Seleciona///Exemplo
+        E F///Elemento F descendente do elemento E///
+        E > F///Elemento F filho do elemento E/// nav > ul {margin-left:30px} vai estilizar o ul filho do nav.
+        E + F///Elemento F imediatamente após E (Irmãos)
+        E ~ F ///Element F após elemento E (irmãos)/// h1~h2 {font-size:27px;} vai estilizar o h2,elemento irmão do h1
+        E:first-child///Elemento E primeiro filho do seu elemento pai///nav > ul > li:firt-child {font-size:26;///Seletor composto.Essa regra CSS estiliza o elemento li último filho do elemento ul que por sua vez é filho de nav.
+        E:last-child///Elemento E último filho do seu elemento pai
+        :nth-child(n)
+
+Herança04:
+-->
+    <h1>Herança em CSS</h1>
+    <h2>Linguagens</h2>
+
+    <ul>
+        <li>HOME</li>
+        <li>PORTIFÓLIO</li>
+        <li>SOBRE MIM</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste aliquid rerum corporis illo magni animi nisi. Rem, libero? Magni libero ratione dicta consequatur eos similique ipsam animi veritatis maxime vitae.</p>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+</body>
+</html>
