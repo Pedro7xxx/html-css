@@ -1,0 +1,32 @@
+/*Dimensionamento - Sintexe
+    .div{
+        width: 400px;
+        height: 200px;
+        border: 1px solid red;
+        box-sizing: border-box;
+    }
+*/
+
+/*Exemplo1
+
+    .div1{
+        width: 400px;
+        height: 200px;
+        border: 1px solid red;
+        box-sizing: border-box;
+    }
+
+    .div2{
+        width: 400px;
+        height: 200px;
+        padding: 30px;
+        border: 1px solid blue;   
+    }
+
+*/
+
+/*Variáveis*/
+
+    :root{
+        --dourado: #DEB44B;
+    }
