@@ -21,7 +21,7 @@ Lista - Pseudoclasses - lista
     :disabled
 */
 
-/*Exemplo1*/
+/*Exemplo1
     
     a.estilo1:link {color:red}
     a.estilo1:visited{color: blue;}
@@ -33,10 +33,58 @@ Lista - Pseudoclasses - lista
 
     a.estilo3:link{color:red}
     a.estilo3:visited{color:blue}
-    a.estilo3.hover{background:green;}
+    a.estilo3:hover{background: green;}
 
     a.estilo4:link{color:red}
     a.estilo4:visited{color: blue;}
     a.estilo4:hover{font-family: 'Courier New', Courier, monospace;}
 
-    a.estilo5:link{color:red,  none}
+    a.estilo5:link{color:red; text-decoration: none;}
+    a.estilo5:visited{color: blue; text-align: none;}
+    a.estilo5:hover{text-decoration: underline;}
+    
+
+Pseudoclasses para links
+A ordem na estilização deve ser:
+    a:link{}
+    a:visited{}
+    a:hover{}
+    a:active{}
+Caso inverta a ordem o efeito não será aplicado conforme o planejado.
+
+
+Pseudoelementos
+    ::after
+    ::before
+    ::first-letter /// Podemos formatar para first-letter: propriedades da fonte, propriedade de cor, propriedade de fundo, propriedade de margem, propriedade de preenchimento, propriedade de borda, decoração de texto, vertical-align(somente se "float" for "none"), transformação de texto, altura da linha, float, clear, Pode-se alterar a cor de fonte, cor de fundo,cursor e outline.
+    ::first-line /// Podemos aplicar ao first-line: propriedades da fonte, propriedades de cor, propriedades de fundo, espaçamento entre palavras, espaçamento entre letras, decoração de texto, alinhamento vertical, transformação de texto, altura da linha, clear
+    ::marker
+    ::selection
+
+Exemplo1:
+        h1::before{
+
+        }
+
+Exemplo:2 
+    p::first-letter{
+        color: red;
+        font-size: xx-large;
+    }
+
+    p::first-line{
+        color: blue;
+        font-variant: small-caps;
+    }
+
+Exemplo3:
+    ::marker{
+        color: red;
+        font-size: 23;
+    }
+
+Exemplo4:*/
+    ::selection{
+        color: red;
+        background: yellow;
+    }
