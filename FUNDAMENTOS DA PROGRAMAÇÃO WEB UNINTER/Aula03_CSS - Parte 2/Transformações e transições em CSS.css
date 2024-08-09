@@ -1,0 +1,45 @@
+/*Transformações em 2D
+    Métodos:
+        translate() - selector{transform: translate(x,y);}
+        rotate() - selector{transform:rotate(a)}
+        scale() - selector{transform:scaleX(n,m)}
+        skew() - selector{transform:skewY(a)}
+        matrix() - selector{transform:matrix()} - matrix (scaleX(), skewY(),skewX(),scaleY(),translateX(),translateY())
+
+Exemplo1:*/
+    .div1{
+        transform: translateX(80px);
+    }
+
+    .div2{
+        transform: translateY(80px);
+    }
+
+    .div3{
+        transform: translate(80px, 100px);
+    }
+
+    div{
+        background-color: dimgray;
+        width: 150px;
+        height: 100px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

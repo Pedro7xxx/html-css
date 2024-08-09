@@ -27,6 +27,39 @@
 
 /*Variáveis*/
 
+/*Variáveis-Sintaxe
     :root{
         --dourado: #DEB44B;
+        --branco: #ffffff;
+    }
+
+    body{
+        background-color: var(--dourado);
+    }
+
+    h2 {
+        border-bottom: 2px solid var(--dourado);
+    }
+
+    .container {
+        color: var(--dourado);
+        background-color: var(--branco);
+        padding: 15px;
+    }
+
+    button{
+        background-color: var(--branco);
+        color: var(--dourado);
+        border: 1px solid var(--dourado);
+        padding: 5px;
+    }
+*/
+
+/*Formatação com imagens*/
+    img{
+        border-radius: 10px;
+        opacity: 0.5;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
     }
