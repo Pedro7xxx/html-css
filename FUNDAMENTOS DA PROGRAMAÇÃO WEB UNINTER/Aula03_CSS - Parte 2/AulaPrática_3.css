@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    margin: 0 auto;
+}
+
+header{ /*Imagem*/
+    background: url(img/eletricista1.png) no-repeat;
+    height: 600px;
+    top: 0;
+}
+
+.fontedes{ /*Fonte Header*/
+    font-size: 5rem;
+    color: blue;
+}
+
+div{ 
+    background-color: #222121;
+    padding: 0 auto;
+}
+
+ul, li{ /*Botão Orçamento*/
+    width: 300px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #e80505;
+}
+
+li, a{
+
+    display: block;
+    text-align: none;
+    color: #000
+    
+}
+
