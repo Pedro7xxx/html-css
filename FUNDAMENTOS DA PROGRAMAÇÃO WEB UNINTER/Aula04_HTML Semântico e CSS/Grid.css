@@ -1,0 +1,24 @@
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font: 2rem sans-serif;
+    background: white;
+    color: #333;
+    margin: 40px;
+}
+
+.box{
+    color: white;
+    border: solid #333;
+    font-size: 2.6rem;   
+}
+
+.box{
+    background: #f6f4f4;
+    border-color: #090909;
+    color: #000;
+}
+

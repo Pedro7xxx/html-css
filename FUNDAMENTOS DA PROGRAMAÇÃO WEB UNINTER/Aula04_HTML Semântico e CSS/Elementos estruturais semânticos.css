@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box; /*Aplica o box sizing em todos o elementos da tela*/
+}
+
+header{
+    border: 1px solid rgb(0, 8, 255); /*Cor de borda e padding*/
+    padding: 15px;
+}
+
+nav { /*Ocupa 25% da tela e flutua a direita na tela com padding de 15px*/
+    width: 25%;
+    float: right;
+    padding: 15px;
+    border: 1px solid rgb(0, 26, 255);
+}
+
+section{ /*Ocupa 75% da tela e flutua a esquerda com padding de 15px*/
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(0, 4, 255);
+}
