@@ -1,0 +1,11 @@
+/* Sintaxe */
+
+    body{
+        background-color: lightgreen;
+    }
+    
+    @media only screen and (max-width: 600px){
+        body{
+            background-color: rgb(240, 136, 25);
+        }
+    }
