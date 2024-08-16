@@ -30,14 +30,40 @@ if (condição){
     }
 
 //Exemplo2
-    let idade=prompt("Qual sua idade?")
-    if(idade<=11){
-        alert("Você é uma criança!")
-    } else if (idade>11 && idade<=14){
-        alert("Você é adolescente!")
-    } else if (idade>21 && idade<=60){
-        alert("Você é adulto!")
-    } else{
-        alert("Você é idoso!")
-    }
+    // let idade=prompt("Qual sua idade?")
+    // if(idade<=11){
+    //     alert("Você é uma criança!")
+    // } else if (idade>11 && idade<=14){
+    //     alert("Você é adolescente!")
+    // } else if (idade>21 && idade<=60){
+    //     alert("Você é adulto!")
+    // } else{
+    //     alert("Você é idoso!")
+    // }
 
+//Estrutura swich...case
+    //Sintaxe
+        // switch(expressão){
+        //     case resultado 1:
+        //         codigo 1
+        //         break;
+        //     case resulta 2:
+        //         codigo 2 
+        //         break;
+        //     default:
+        //     codigo
+        // }
+
+//Exemplo
+    let estado=prompt("Qual o seu estado?");
+    switch(estado){
+        case "RS":
+            alert("Rio Grande do Sul");
+            break;
+        case "SC":
+            alert("Santa Catarina");
+            break;
+        default:
+            alert("Não é um Estado válido")
+    }
+    
