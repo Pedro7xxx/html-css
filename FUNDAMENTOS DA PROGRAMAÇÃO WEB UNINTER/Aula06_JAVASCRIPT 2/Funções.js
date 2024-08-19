@@ -21,9 +21,21 @@
 // }
 // mostrarMsg()
     
-function mostrarMsg(){
-    console.log('Mensagem A');
-    return;
-    console.log('Mensagem B');
-}
+// function mostrarMsg(){
+//     console.log('Mensagem A');
+//     return;
+//     console.log('Mensagem B');
+// }
+// mostarMsg();
 
+//Parâmetros da função
+    //Sintaxe
+        // function somar(num1, num2) {
+        //     return num1 +num2;
+        // }
+        // somar (35,2);
+
+//Função arrow
+    //Sintaxe
+        let somar=(n1,n2) =>n1+n2;
+        console.log(somar(2,3));
