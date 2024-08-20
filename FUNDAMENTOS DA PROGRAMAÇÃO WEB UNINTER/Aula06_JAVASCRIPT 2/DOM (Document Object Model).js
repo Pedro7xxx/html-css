@@ -15,9 +15,17 @@
 
 
 // Exemplo - getElementById
-    window.onload = function() {
-        var Um = document.getElementById('def'); //Aqui selecionamos o id "def"
-        var Dois = document.getElementById('tipo')//Aqui selecionamos o id "tipo"
-            Um.style.backgroundColor='0cc';//Atribuímos uma cor de fundo
-            Dois.style.border='2px solid #0000ff';//Aqui atribuímos uma borda
-    }
+    // window.onload = function() {
+    //     var Um = document.getElementById('def'); //Aqui selecionamos o id "def"
+    //     var Dois = document.getElementById('tipo');//Aqui selecionamos o id "tipo"
+    //         Um.style.backgroundColor='#0cc';//Atribuímos uma cor de fundo
+    //         Dois.style.border='2px solid #0000ff';//Aqui atribuímos uma borda
+    // }
+
+//Exemplo - getElementsByTagName
+    // window.onload = function() {
+    //     var titulosNivelDois = document.getElementsByTagName('h2');
+    //     titulosNivelDois[0].style.backgroundColor = 'blue';
+    //     titulosNivelDois[1].style.color = 'red';
+    //     titulosNivelDois[2].style.fontSize = '30px'
+    // }
