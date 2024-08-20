@@ -22,7 +22,7 @@
 
 */
 
-/*Barra de navegação horizontal
+Barra de navegação horizontal
 
         ul {
             list-style-type: none;
@@ -48,10 +48,10 @@
             color: white;
         }
 
-*/
+
 
 /*Submenu*/
-        ul{
+        /* ul{
             margin: 0;
             padding: 0;
             list-style-type: none;
@@ -86,4 +86,4 @@
 
         li:hover ul{
             display: block;
-        }
+        } */
