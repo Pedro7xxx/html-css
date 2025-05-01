@@ -1,5 +1,12 @@
 body{
-    background: #D3D3BC url()
-    
+    background: #D3D3BC url(img/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+        
+}
+
+#principal{
+    border: 1px solid red;
+    width: 900px;
+    height: 500px;
 }
 
