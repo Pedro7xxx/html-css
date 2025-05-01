@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fontes e cores</title>
+    <title>Estilos de textos</title>
 
     <style type="text/css">
 
+        body{
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
 
+        .negrito{
+            font-weight: bold;
+        }
+
+        .italico {
+            font-style: italic;
+        }
+
+        .formatacao{
+            /*overline - line-through*/
+            text-decoration:underline ;
+        }
+
+        .texto{
+            font: bold 40px Lucida "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+        }
         
 
 
@@ -17,7 +37,11 @@
 
 <body>
 
-   <p>Texto Negrito</p>
+   <p class="negrito">Texto Negrito</p>
+   <p class="italico">Texto Itálico</p>
+   <p class="formatacao">Formatação de texto</p>
+   <p class="texto">texto</p>
+   <p>padrao</p>
 
 
     
